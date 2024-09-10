@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nev">
+            <div class="nevBox"><h1>my Email</h1></div>
+            <div class="nevBox"><input type="button" class="nevButton" value="דואר נכנס"></input></div>
+            <div class="nevBox"><input type="button" class="nevButton" value="דואר יוצא"></input></div>
+            <div class="nevBox"><input type="button" class="nevButton" value="הגדרות"></input></div>
+            <div class="nevBox"><input type="button" class="nevButton" value="טיוטה"></input></div>
+        </div>
+        <div class="container">
+            <div class="incomingEmail">
+                
+                <div class="email">
+                    <div class="words">user@email.com</div>
+                    <div class="words">      title: "עדכון חשוב במדיניות החברה",
+                    </div>
+                    <div class="words">      to: "employees@company.com",
+                    </div>
+                    <div class="words">      body: "שלום צוות! חדשות טובות! סיימנו בהצלחה את שלב 1 של פרויקט המצווה. בזכות העבודה הקשה של כולכם, עזרנו כבר ל-100 משפחות נזקקות. תודה מיוחדת לדבורה פישמן על תיאום חלוקת המזון ולאיציק לוי על ארגון לוח הזמנים של המתנדבים. בואו נמשיך את המומנטום המדהים הזה כשניכנס לשלב 2!"
+                    </div>
+                </div>
+                <div class="email"></div>
+
+            </div>
+            <div class="outgoingEmail"></div>
+            <div class="setings"></div>
+            <div class="tiota"></div>
+            <input type="button" class="send" value="+">
+            <div class="sendDiv">
+                <input type="text" class="newEmail" placeholder="מ:"></input>
+                <input class="newEmail" placeholder="אל:"></input>
+                <input class="newEmail" placeholder="כותרת:"></input>
+                <textarea class="body" placeholder="תוכן:"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
